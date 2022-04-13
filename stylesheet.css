@@ -73,18 +73,20 @@ h5 {
 ul li {
   margin: 0.4em 0;
 }
-
+  
+/* this styles how the links appear on your webpage */
 a {
   border-bottom: 1px solid #1A8917;
   text-decoration: none;
-  color: #1A8917;
+  color: black;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border-bottom: 1px dotted gray;
 }
 
+/* hover describes what happens when your cursor is on the link */
 a:hover {
-  color: #5FC25D;
-  border-bottom: 1px solid #5FC25D
-}
+border-bottom: 1px solid gray;}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
