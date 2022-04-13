@@ -8,6 +8,10 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* This forces the container to adapt to the window size; i.e. makes the webpage somehow 'adaptive' to the device you use. */
+@media all and (min-width:1000px) { html { font-size: 18px; } }
+@media all and (max-width:520px) { html{ font-size: 14px; }
   
 img {
   width: 100%;
