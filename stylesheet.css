@@ -77,7 +77,6 @@ ul li {
 /* this styles how the links appear on your webpage */
 /* hover describes what happens when your cursor is on the link */
 a, a:link, a:hover, a:visited {
-  border-bottom: 1px solid #1A8917;
   text-decoration: none;
   color: black;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
