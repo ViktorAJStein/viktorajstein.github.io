@@ -79,7 +79,7 @@ ul li {
 a, a:link, a:hover, a:visited {
   text-decoration: none;
   color: black;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  /* transition: all 0.3s cubic-bezier(.25,.8,.25,1); */
   border-bottom: 1px dotted gray;
 }
 
@@ -107,13 +107,13 @@ table th, table td {
     
 @media (min-width: 576px) {
   .wrapper {
-    width: 550px;
+    width: 600px;
   }
 }
 
 @media (min-width: 768px) {
   .wrapper {
-    width: 640px;
+    width: 700px;
   }
 }
     
