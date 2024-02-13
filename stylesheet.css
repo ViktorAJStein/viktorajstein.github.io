@@ -78,7 +78,7 @@ ul li {
 /* hover describes what happens when your cursor is on the link */
 a, a:link, a:hover, a:visited {
   text-decoration: none;
-  color: black;
+  color: #5FC25D;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border-bottom: 1px dotted gray;
 }
@@ -116,4 +116,3 @@ table th, table td {
     width: 700px;
   }
 }
-    
