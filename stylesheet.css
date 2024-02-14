@@ -25,6 +25,12 @@ html {
   gap: 10px; /* Adjust the gap between images */
 }
 
+/* Styles for links within the image container */
+.image-container a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the default text color */
+}
+
 img {
   max-width: 100%;
   height: auto; /* Maintain aspect ratio */
