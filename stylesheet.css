@@ -8,10 +8,6 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-/* This forces the container to adapt to the window size; i.e. makes the webpage somehow 'adaptive' to the device you use. */
-@media all and (min-width:1000px) { html { font-size: 18px; } }
-@media all and (max-width:520px) { html{ font-size: 14px; } }
   
 img {
   width: 100%;
@@ -73,14 +69,17 @@ h5 {
 ul li {
   margin: 0.4em 0;
 }
-  
-/* this styles how the links appear on your webpage */
-/* hover describes what happens when your cursor is on the link */
-a, a:link, a:hover, a:visited {
+
+a {
+  border-bottom: 1px solid #1A8917;
   text-decoration: none;
-  color: #5FC25D;
+  color: #1A8917;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  border-bottom: 1px dotted gray;
+}
+
+a:hover {
+  color: #5FC25D;
+  border-bottom: 1px solid #5FC25D
 }
 
 code {
@@ -107,12 +106,13 @@ table th, table td {
     
 @media (min-width: 576px) {
   .wrapper {
-    width: 600px;
+    width: 500px;
   }
 }
 
 @media (min-width: 768px) {
   .wrapper {
-    width: 700px;
+    width: 640px;
   }
 }
+    
