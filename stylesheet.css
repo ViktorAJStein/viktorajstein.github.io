@@ -27,8 +27,8 @@ html {
 
 /* Styles for links within the image container */
 .image-container a {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Use the default text color */
+  text-decoration: none !important; /* Remove underline */
+  color: inherit !important; /* Use the default text color */
 }
 
 img {
