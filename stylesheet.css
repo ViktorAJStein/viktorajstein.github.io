@@ -8,11 +8,6 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-  
-img {
-  width: 100%;
-}
-
 
 .wrapper {
   line-height: 1.5;
