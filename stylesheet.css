@@ -155,7 +155,7 @@ table th, table td {
     width: 640px;
   }
 
-  .post-description { margin-bottom: 2rem; font-size: 0.875rem; }
+.post-description { margin-bottom: 2rem; font-size: 0.875rem; }
 
 .post-description a { color: inherit; }
 
@@ -226,6 +226,16 @@ table th, table td {
 .social .small-contact-icons a:hover i::before { color: var(--global-theme-color); }
 
 .social .contact-note { font-size: 0.8rem; }
+
+footer.fixed-bottom { background-color: var(--global-footer-bg-color); font-size: 0.75rem; }
+
+footer.fixed-bottom .container { color: var(--global-footer-text-color); padding-top: 9px; padding-bottom: 8px; }
+
+footer.fixed-bottom a { color: var(--global-footer-link-color); }
+
+footer.fixed-bottom a:hover { color: var(--global-theme-color); text-decoration: none; }
+
+footer.sticky-bottom { border-top: 1px solid var(--global-divider-color); padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
 
 .header-bar { border-bottom: 1px solid var(--global-divider-color); text-align: center; padding-top: 2rem; padding-bottom: 5rem; }
 
