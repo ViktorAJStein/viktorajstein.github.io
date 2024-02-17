@@ -10,7 +10,7 @@ html {
 }
   
 img {
-  width: 100%;
+  maxwidth: 100%;
 }
 
 
