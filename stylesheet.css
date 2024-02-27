@@ -24,9 +24,10 @@ img {
 
 .wrapper {
   line-height: 1.5;
-  color: rgba(41,41,41,1);
-  margin-top: 1rem;
-  width: 100%;
+  color: rgba(41, 41, 41, 1);
+  margin: 1rem; /* Add margins */
+  width: 90%; /* Limit width */
+  max-width: 1200px; /* Maximum width */
   padding: 1rem;
   box-sizing: border-box;
   color: #333d41;
