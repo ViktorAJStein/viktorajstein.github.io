@@ -13,12 +13,18 @@ img {
   maxwidth: 100%;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
 
 .wrapper {
   line-height: 1.5;
   color: rgba(41,41,41,1);
   margin-top: 1rem;
-  width: 70%;
+  width: 100%;
   padding: 1rem;
   box-sizing: border-box;
   color: #333d41;
