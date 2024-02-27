@@ -14,10 +14,12 @@ img {
 }
 
 .image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center; /* Center contents horizontally */
   margin-top: 1rem;
+}
+
+.image-container img {
+  margin: auto; /* Center the image within its container */
 }
 
 .wrapper {
