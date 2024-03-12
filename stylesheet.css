@@ -25,13 +25,12 @@ img {
 .wrapper {
   line-height: 1.5;
   color: rgba(41, 41, 41, 1);
-  margin: 1rem; /* Add margins */
-  width: 90%; /* Limit width */
+  margin: 1rem auto; /* Add margins */
+  width: calc(100% - 2rem); /* Limit width and subtract the total padding */
   max-width: 1200px; /* Maximum width */
   padding: 1rem;
   box-sizing: border-box;
   color: #333d41;
-}
 
 hr {
   margin: 1em 0;
