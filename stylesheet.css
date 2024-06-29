@@ -1,5 +1,8 @@
 html {
-  margin: 0 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 1%;
   display: flex;
   justify-content: center;
