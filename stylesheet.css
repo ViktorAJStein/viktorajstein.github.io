@@ -11,6 +11,26 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows elements to stack on small screens */
+    gap: 20px; /* Adds spacing between the image and text */
+    text-align: left;
+}
+
+.profile-image {
+    width: 166px;
+    height: 166px;
+    flex-shrink: 0; /* Prevents the image from shrinking */
+}
+
+.profile-text {
+    max-width: 400px; /* Adjust as needed */
+}
+
   
 img {
   maxwidth: 100%;
