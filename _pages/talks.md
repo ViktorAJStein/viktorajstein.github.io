@@ -6,12 +6,13 @@ author_profile: true
 ---
 
 - **SympFormer: Accelerated attention blocks via Inertial Dynamics on Density Manifolds**
-  - Oberwolfach workshop [Flows on Measure Spaces and Applications in Machine Learning](https://www.mfo.de/www/activity/2613).
+  
+    - Oberwolfach workshop [Flows on Measure Spaces and Applications in Machine Learning](https://www.mfo.de/www/activity/2613).
 
 - **Accelerated Stein Variational Flow**
-  - [GSI'25 – 7th International Conference on Geometric Science of Information](https://conference-gsi.org/), St. Malo, France, 30.10.2025. [Slides](https://speakerdeck.com/viktorajstein/accelerated-variational-gradient-flow-slides)
-  - Stan Osher’s UCLA Level Set Seminar, April 2025.
-  - Colloquium of the Signal Processing Department, University Carlos III Madrid, November 2025.
+    - [GSI'25 – 7th International Conference on Geometric Science of Information](https://conference-gsi.org/), St. Malo, France, 30.10.2025. [Slides](https://speakerdeck.com/viktorajstein/accelerated-variational-gradient-flow-slides)
+    - Stan Osher’s UCLA Level Set Seminar, April 2025.
+    - Colloquium of the Signal Processing Department, University Carlos III Madrid, November 2025.
 
 - **Wasserstein gradient flows of MMD-regularized f-divergences**
   - [Conference on Mathematics of Machine Learning 2025](https://www.tuhh.de/dsf/mml), Hamburg, 30.09.2025. [Slides](https://speakerdeck.com/viktorajstein/wasserstein-gradient-flow-of-moreau-envelopes-of-f-divergences-in-reproducing-kernel-hilbert-spaces-mml25-version) · [Video](https://webcast.tuhh.de/Mediasite/Play/728326a3225b4fff9f74c9d1d4a320531d)
