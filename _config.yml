@@ -9,6 +9,9 @@ remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 plugins:
   - jekyll-include-cache
 
+include:
+  - _pages
+
 minimal_mistakes_skin: "default"
 search: true
 breadcrumbs: false
@@ -26,7 +29,7 @@ author:
       url: "https://www.tu.berlin"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:lastname@math.tu-berlin.de"
+      url: "mailto:YOUR_EMAIL"
     - label: "arXiv"
       icon: "ai ai-arxiv"
       url: "https://arxiv.org/"
