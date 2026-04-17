@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-## Talks and posters
-
 - **SympFormer: Accelerated attention blocks via Inertial Dynamics on Density Manifolds**  
   Oberwolfach workshop “Flows on Measure Spaces and Applications in Machine Learning”.
 
