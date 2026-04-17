@@ -22,7 +22,14 @@ permalink: pretty
 author:
   name: "Viktor Stein"
   avatar: "/assets/images/stein.jpg"
-  bio: "Applied mathematician working on Wasserstein gradient flows, regularized divergences, optimal transport, and geometry-inspired machine learning."
+  bio: "Applied mathematician working on Wasserstein gradient flows, regularized divergences, optimal transport,
+  and geometry-inspired machine learning.
+
+  My research develops rigorous analytical foundations and practical algorithms for particle-based sampling methods, aiming to
+  (i) understand properties of gradient flows in probability spaces and
+  (ii) design fast, efficient, and stable algorithms.
+  Developing methods that are both theoretically grounded and practically robust enables safer, faster,
+  and more interpretable inference methods in modern applications."
 
   links:
     - label: "TU Berlin"
