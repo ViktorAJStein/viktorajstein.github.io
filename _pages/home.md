@@ -4,7 +4,7 @@ permalink: /
 layout: single
 author_profile: true
 ---
-
+<!-- I am a Postdoc in the [Applied Numerical Analysis Group](https://mcml.ai/research/groups/fornasier/) in the Department of Mathematics at [Technical University of Munich](https://www.cit.tum.de/en/cit/home/) supervised by [Massimo Fornasier[(https://www.professoren.tum.de/en/fornasier-massimo). I obtained my PhD under the supervision of [Gabriele Steidl](https://page.math.tu-berlin.de/~steidl/) at [TU Berlin](https://www.tu.berlin/en/). -->
 I am a PhD candidate in the [Applied Mathematics Group](https://www.tu.berlin/imageanalysis)
 led by [Gabriele Steidl](https://page.math.tu-berlin.de/~steidl/) at
 [TU Berlin](https://www.tu.berlin/en/)
