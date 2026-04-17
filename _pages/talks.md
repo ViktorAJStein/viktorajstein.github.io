@@ -33,10 +33,7 @@ author_profile: true
 
 - **Training Neural Networks at the Edge of Stability**  
   [Slides](https://speakerdeck.com/viktorajstein/training-neural-networks-at-the-edge-of-stability)  
-  Overview of  
-  [Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability](https://openreview.net/pdf/58dee9437b8c6a8bd725e2792631e8392f881f19.pdf) and  
-  [Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability](https://arxiv.org/pdf/2103.00065)  
-  held in [Benjamin Gess’](https://www.bgess.de/) Mathematics of Machine Learning seminar
+  An overview of [Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability](https://openreview.net/pdf/58dee9437b8c6a8bd725e2792631e8392f881f19.pdf) and [Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability](https://arxiv.org/pdf/2103.00065) held in [Benjamin Gess’](https://www.bgess.de/) Mathematics of Machine Learning seminar.
 
 - **What does Adam have to do with symplectic manifolds? The geometry behind momentum methods in machine learning**  
   [14th BMS Student Conference](https://bmsstudconf.github.io/2026/mschedule.html)  
@@ -48,24 +45,21 @@ author_profile: true
 
 - **Mode collapse and metastability in transformers**  
   [Slides](https://viktorajstein.github.io/files/Mode_collapse_and_metastability.pdf)  
-  overview of  
-  [The emergence of clusters in self-attention dynamics](https://arxiv.org/abs/2305.05465) and  
-  [A Unified Perspective on the Dynamics of Deep Transformers](https://arxiv.org/abs/2501.18322)  
-  held in [Benjamin Gess’](https://www.bgess.de/) Mathematics of Machine Learning seminar, [Berlin-Leipzig Hybrid Seminar SS25](https://www.bgess.de/index.php/teaching/berlin-leipzig-online-seminar-ss25-mathematics-of-machine-learning/)
+  An overview of [The emergence of clusters in self-attention dynamics](https://arxiv.org/abs/2305.05465) and   [A Unified Perspective on the Dynamics of Deep Transformers](https://arxiv.org/abs/2501.18322) held in [Benjamin Gess’](https://www.bgess.de/) Mathematics of Machine Learning seminar, [Berlin-Leipzig Hybrid Seminar SS25](https://www.bgess.de/index.php/teaching/berlin-leipzig-online-seminar-ss25-mathematics-of-machine-learning/).
 
 - **“Zoom and enhance” geht wirklich – mit Atomic Norm Minimization**  
   Talk in German on my bachelor’s thesis “Atomic Norm Minimisation for Superresolution”  
   [17. Dies Mathematicus, TU Berlin, 25.11.2022](https://www3.math.tu-berlin.de/dies/2022/)  
   [Slides](https://viktorajstein.github.io/files/Zoom_and_enhance_geht_wirklich___Dies_Mathematicus_2022__4_3_.pdf) · [Video](https://www.youtube.com/watch?v=lTCyKIpkt3Q) · [MATLAB code](https://viktorajstein.github.io/files/Code.zip)
 
-- [**3 minute talk about the Kullback-Leibler Divergence**](https://viktorajstein.github.io/files/The_Kullback_Leibler_Divergence_slides-short.pdf)  
-  Seminar Optimal Transport, Prof. Gabriele Steidl, summer semester 2021
+- **3 minute talk about the Kullback-Leibler Divergence** 
+  Seminar Optimal Transport, Prof. Gabriele Steidl, summer semester 2021. [Slides](https://viktorajstein.github.io/files/The_Kullback_Leibler_Divergence_slides-short.pdf)
 
-- [**Adversarial Regularisation in Inverse Problems**](https://viktorajstein.github.io/files/Adversarial_Regularizers_in_Inverse_Problems_Slides.pdf)  
-  on the NeurIPS 2018 paper by Sebastian Lunz et al., seminar “Neural Networks for Inverse Problems”, winter semester 2021/2022
+- **Adversarial Regularisation in Inverse Problems**  
+  on the NeurIPS 2018 paper by Sebastian Lunz et al., seminar “Neural Networks for Inverse Problems”, winter semester 2021/2022. [Slides](https://viktorajstein.github.io/files/Adversarial_Regularizers_in_Inverse_Problems_Slides.pdf)
 
-- [**Compactly supported shearlets are optimally sparse**](https://viktorajstein.github.io/files/Compactly_supported_shearlets_are_optimally_sparse.pdf)  
-  seminar Applied Functional Analysis, summer semester 2019
+- **Compactly supported shearlets are optimally sparse**  
+  seminar Applied Functional Analysis, summer semester 2019. [Slides](https://viktorajstein.github.io/files/Compactly_supported_shearlets_are_optimally_sparse.pdf)
 
-- [**Atomic Norm Minimisation for Superresolution**](https://viktorajstein.github.io/files/Atomic_Norm_Minimisation_for_Superresolution_short.pdf)  
-  seminar Optimal Transport, summer semester 2021
+- **Atomic Norm Minimisation for Superresolution**  
+  seminar Optimal Transport, summer semester 2021. [Slides](https://viktorajstein.github.io/files/Atomic_Norm_Minimisation_for_Superresolution_short.pdf)
