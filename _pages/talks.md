@@ -8,41 +8,25 @@ author_profile: true
 ## Talks and posters
 
 - **SympFormer: Accelerated attention blocks via Inertial Dynamics on Density Manifolds**  
-  Oberwolfach workshop “Flows on Measure Spaces and Applications in Machine Learning”
+  Oberwolfach workshop “Flows on Measure Spaces and Applications in Machine Learning”.
 
 - **Accelerated Stein Variational Flow**  
-  [GSI'25 – 7th International Conference on Geometric Science of Information](https://conference-gsi.org/), St. Malo, France, 30.10.2025  
+  [GSI'25 – 7th International Conference on Geometric Science of Information](https://conference-gsi.org/), St. Malo, France, 30.10.2025, and in Stan Osher’s Level Set Seminar at UCLA in April 2025.
   [Slides](https://speakerdeck.com/viktorajstein/accelerated-variational-gradient-flow-slides)
 
 - **Wasserstein gradient flows of MMD-regularized f-divergences**  
-  [Conference on Mathematics of Machine Learning 2025](https://www.tuhh.de/dsf/mml), Hamburg, 30.09.2025  
-  [Slides](https://speakerdeck.com/viktorajstein/wasserstein-gradient-flow-of-moreau-envelopes-of-f-divergences-in-reproducing-kernel-hilbert-spaces-mml25-version) · [Video](https://webcast.tuhh.de/Mediasite/Play/728326a3225b4fff9f74c9d1d4a320531d)
-
-- **Accelerated Stein Variational Gradient Flow**  
-  Stan Osher’s Level Set Seminar, UCLA
-
+  [Conference on Mathematics of Machine Learning 2025](https://www.tuhh.de/dsf/mml), Hamburg, 30.09.2025. [Slides](https://speakerdeck.com/viktorajstein/wasserstein-gradient-flow-of-moreau-envelopes-of-f-divergences-in-reproducing-kernel-hilbert-spaces-mml25-version) · [Video](https://webcast.tuhh.de/Mediasite/Play/728326a3225b4fff9f74c9d1d4a320531d). Also in [Stan Osher’s UCLA level set seminar](https://www.math.ucla.edu/~sjo/) on 19.08.2024. 
+  [Slides](https://viktorajstein.github.io/files/Slides_WGF_of_MMD_Moreau_envelopes_of_f_divergences_Handout-compressed.pdf) · [Video](https://www.youtube.com/watch?v=iuaQ1w4U-q8).  [Pitch](https://viktorajstein.github.io/files/B5_Stein.pdf) · [Poster](https://viktorajstein.github.io/files/Wasserstein_gradient_flow_of_Moreau_envelopes_of_f_divergences_in_Reproducing_Kernel_Hilbert_Spaces_Poster.pdf) at [OT-DOM 24](https://sites.google.com/view/ot-berlin-2024/home), [Learning and Optimization in Luminy 24](https://conferences.cirm-math.fr/3003.html) and [the SIGMA workshop 2024](https://jdigne.github.io/sigma2024/program.html)
+  
+  
 - **Interpolating between Optimal Transport and KL regularized Optimal Transport using Rényi Divergences**  
   [University of South Carolina Mathematics Graduate Colloquium](https://sc.edu/study/colleges_schools/artsandsciences/mathematics/beyond_classroom/colloquia_and_seminars/grad_colloquium/index.php), 12.09.2024  
-  [Slides](https://viktorajstein.github.io/files/Slides_Interpolating_between_Optimal_Transport_and_KL_regularized_Optimal_Transport_using_Rényi_Divergences.pdf)
+  [Pitch](https://viktorajstein.github.io/files/A13_Bresch.pdf) · [Poster](https://viktorajstein.github.io/files/Rényi_regularized_OT_Poster.pdf) at at [OT-DOM 24](https://sites.google.com/view/ot-berlin-2024/home) · [Slides](https://viktorajstein.github.io/files/Slides_Interpolating_between_Optimal_Transport_and_KL_regularized_Optimal_Transport_using_Rényi_Divergences.pdf) 
 
 - **Wasserstein Gradient Flows of MMD Functionals with Distance Kernel and Cauchy Problems on Quantile Functions**  
   Joint [Applied and Computational Mathematics](https://sc.edu/study/colleges_schools/artsandsciences/mathematics/beyond_classroom/colloquia_and_seminars/acm/index.php) and [RTG Data Science Seminar](https://sc.edu/study/colleges_schools/artsandsciences/mathematics/beyond_classroom/colloquia_and_seminars/rtg_data_science/index.php), University of South Carolina, 30.08.2024  
   [Slides](https://viktorajstein.github.io/files/Slides_WGF_of_MMD_Functionals_with_Distance_Kernel_and_Cauchy_Problems_on_Quantile_Functions.pdf)
 
-- **Wasserstein gradient flows of Moreau envelopes of f-divergences in reproducing kernel Hilbert spaces**  
-  [Stan Osher’s UCLA level set seminar](https://www.math.ucla.edu/~sjo/), 19.08.2024  
-  [Slides](https://viktorajstein.github.io/files/Slides_WGF_of_MMD_Moreau_envelopes_of_f_divergences_Handout-compressed.pdf) · [Video](https://www.youtube.com/watch?v=iuaQ1w4U-q8)
-
-- Posters at [OT-DOM 24](https://sites.google.com/view/ot-berlin-2024/home):  
-  **Wasserstein Gradient Flows for Moreau Envelopes of f-Divergences in Reproducing Kernel Hilbert Spaces**  
-  [Pitch](https://viktorajstein.github.io/files/B5_Stein.pdf) · [Poster](https://viktorajstein.github.io/files/Wasserstein_gradient_flow_of_Moreau_envelopes_of_f_divergences_in_Reproducing_Kernel_Hilbert_Spaces_Poster.pdf)  
-  also presented at [Learning and Optimization in Luminy 24](https://conferences.cirm-math.fr/3003.html) and [SIGMA'24](https://jdigne.github.io/sigma2024/program.html)
-
-  **Rényi-regularized Optimal Transport**  
-  joint work with [Jonas Bresch](https://www.user.tu-berlin.de/jonasbresch/), TU Berlin  
-  [Pitch](https://viktorajstein.github.io/files/A13_Bresch.pdf) · [Poster](https://viktorajstein.github.io/files/Rényi_regularized_OT_Poster.pdf)
-
-- I attended the [Chemnitz Summer School on Applied Analysis in September 2023](https://www.chemnitz-am.de/cms2023/) and presented a poster about ongoing work.
 
 ## Expository talks
 
