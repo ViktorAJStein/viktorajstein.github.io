@@ -1,11 +1,9 @@
 ---
-title: ""
+title: "Publications"
 permalink: /publications/
 layout: single
 author_profile: true
 ---
-
-## Publications
 
 - [J. Bresch](https://www.user.tu-berlin.de/jonasbresch/), **V. Stein**: **Interpolating between Optimal Transport and KL regularized Optimal Transport using Rényi Divergences**. *Results in Mathematics* 81, 23 (2026). [arXiv](https://arxiv.org/abs/2404.18834) · [Journal](https://link.springer.com/article/10.1007/s00025-025-02579-z) · [Code](https://github.com/JJEWBresch/renyi_regularized_OT) · [Slides](https://speakerdeck.com/viktorstein/interpolating-between-optimal-transport-and-kl-regularized-optimal-transport-using-renyi-divergences)
 
