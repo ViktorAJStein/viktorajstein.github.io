@@ -21,24 +21,61 @@ permalink: pretty
 
 author:
   name: "Viktor Stein"
-  avatar: "/assets/images/Stein.JPG"
+  avatar: "/assets/images/stein.jpg"
   bio: "Applied mathematician working on Wasserstein gradient flows, regularized divergences, optimal transport, and geometry-inspired machine learning."
+
   links:
     - label: "TU Berlin"
       icon: "fas fa-fw fa-building-columns"
-      url: "https://www.tu.berlin"
+      url: "https://www.tu.berlin/en/"
+
     - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:YOUR_EMAIL"
+      icon: "fas fa-fw fa-square-envelope"
+      url: "mailto:stein@math.tu-berlin.de"
+
     - label: "arXiv"
-      icon: "ai ai-arxiv"
-      url: "https://arxiv.org/"
+      icon: "ai ai-arxiv ai-fw"
+      url: "https://arxiv.org/search/stat?searchtype=author&query=Stein,+V"
+
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
-      url: "https://scholar.google.com/"
+      icon: "ai ai-google-scholar ai-fw"
+      url: "https://scholar.google.com/citations?user=sYqBqqQAAAAJ&hl=en"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ViktorAJStein"
+      url: "https://github.com/viktorajstein"
+
+    - label: "X / Twitter"
+      icon: "fab fa-fw fa-square-x-twitter"
+      url: "https://twitter.com/ViktorStein2"
+
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/profile/Viktor-Stein-2"
+
+    - label: "ORCID"
+      icon: "ai ai-orcid ai-fw"
+      url: "https://orcid.org/0000-0001-9040-820X"
+
+    - label: "Mathstodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mathstodon.xyz/@viktorstein"
+
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCAf1xafoqUBRM_mxAFEVZCg"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/viktor-stein/"
+
+    - label: "Speaker Deck"
+      icon: "fab fa-fw fa-speaker-deck"
+      url: "https://speakerdeck.com/viktorstein"
+
+    - label: "CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/files/CV_Viktor_Stein.pdf"
 
 defaults:
   - scope:
