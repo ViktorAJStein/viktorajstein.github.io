@@ -1,22 +1,18 @@
 ---
-title: "Home"
+title: "Viktor Stein"
 permalink: /
 layout: single
 author_profile: true
 ---
 
-I am an applied mathematician working on Wasserstein gradient flows, regularized divergences, optimal transport, information geometry, and machine learning.
+I am a PhD candidate in the [Applied Mathematics Group](https://www.tu.berlin/imageanalysis)
+led by [Gabriele Steidl](https://page.math.tu-berlin.de/~steidl/) at
+[TU Berlin](https://www.tu.berlin/en/)
+working on Wasserstein gradient flows, regularized f-divergences, and regularized optimal transport.
 
-## Research interests
+My research develops rigorous analytical foundations and practical algorithms for particle-based sampling methods, aiming to
+(i) understand properties of gradient flows in probability spaces and
+(ii) design fast, efficient, and stable algorithms.
 
-- Wasserstein gradient flows and optimal transport
-- Kernelized and regularized divergences
-- Information geometry in probability spaces
-- Geometry-inspired optimization and machine learning
-- Structure-preserving dynamical systems
+Developing methods that are both theoretically grounded and practically robust enables safer, faster, and more interpretable inference methods in modern applications.
 
-## News
-
-- Submitted PhD thesis: *Metric gradient flows in measure spaces: Kernelization and Acceleration*
-- New preprint: *SympFormer*
-- Organizing the hybrid Oberseminar
