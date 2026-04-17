@@ -1,0 +1,46 @@
+title: "Viktor Stein"
+name: "Viktor Stein"
+description: "Applied analysis, optimal transport, Wasserstein gradient flows, information geometry, and machine learning."
+url: "https://viktorajstein.github.io"
+repository: "ViktorAJStein/viktorajstein.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "default"
+search: true
+breadcrumbs: false
+
+markdown: kramdown
+permalink: pretty
+
+author:
+  name: "Viktor Stein"
+  avatar: "/assets/images/stein.jpg"
+  bio: "Applied mathematician working on Wasserstein gradient flows, regularized divergences, optimal transport, and geometry-inspired machine learning."
+  links:
+    - label: "TU Berlin"
+      icon: "fas fa-fw fa-building-columns"
+      url: "https://www.tu.berlin"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:lastname@math.tu-berlin.de"
+    - label: "arXiv"
+      icon: "ai ai-arxiv"
+      url: "https://arxiv.org/"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ViktorAJStein"
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
