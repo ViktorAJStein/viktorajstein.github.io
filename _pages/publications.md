@@ -34,4 +34,4 @@ author_profile: true
   [PDF](https://arxiv.org/pdf/2509.04008) · [Code](https://github.com/viktorajstein/Accelerated_Stein_Variational_Gradient_Flows)
 
 
-<script src="https://bibbase.org/show?bib=https://raw.githubusercontent.com/ViktorAJStein/viktorajstein.github.io/main/files/publications.bib&jsonp=1&group0=year&sort=-year&hidemenu=true&theme=simple"></script>
+<script src="https://bibbase.org/show?bib=https://raw.githubusercontent.com/ViktorAJStein/viktorajstein.github.io/main/files/Publications.bib&jsonp=1&group0=year&sort=-year&hidemenu=true&theme=simple"></script>
