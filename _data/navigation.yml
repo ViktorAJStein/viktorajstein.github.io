@@ -7,7 +7,5 @@ main:
     url: /talks/
   - title: "Teaching"
     url: /teaching/
-  - title: "Notes"
+  - title: "Old Lecture Notes"
     url: /notes/
-  - title: "CV"
-    url: /cv/
