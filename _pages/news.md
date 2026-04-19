@@ -9,14 +9,14 @@ author_profile: true
 
 - Together with [Francesco Mattesini](https://francescomattesini.github.io/), I am organizing the hybrid [Oberseminar](https://mathcal.ma.tum.de/mc/showtalks?) of the [Applied Numerical Analysis Group](https://mcml.ai/research/groups/fornasier/) this semester.
 
+- I attended the MFO workshop [Flows on Measure Spaces and Applications in Machine Learning](https://www.mfo.de/www/activity/2613) in March 2026.
+  
 - New preprint: [*SympFormer: Accelerated attention blocks via Inertial Dynamics on Density Manifolds*](https://arxiv.org/abs/2603.16535), joint work with Wuchen Li and Gabriele Steidl. [Code](https://github.com/ViktorAJStein/SympFormer)
 
 - On 17.03.2026, I submitted my PhD thesis entitled *Metric gradient flows in measure spaces: Kernelization and Acceleration*.
 
 - I visited [Joaquín Míguez’ group](https://jmiguez.webs.tsc.uc3m.es/) in Madrid from 17–21.11.2025.
 
-- On 13.11, I will give an introductory talk on accelerated Stein variational gradient flow, focusing on the Gaussian case and the corresponding Riccati equations.
+- On 13.11.2025, I gave an introductory talk on accelerated Stein variational gradient flow, focusing on the Gaussian case and the corresponding Riccati equations.
 
 - I was accepted into the [Berlin Mathematical School](https://www.math-berlin.de/index.php).
-
-- I will be at the MFO workshop [Flows on Measure Spaces and Applications in Machine Learning](https://www.mfo.de/www/activity/2613) in March 2026.
