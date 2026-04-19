@@ -20,3 +20,73 @@
   border: 0;
   border-radius: 0; /* or 50% if you want a circle */
 }
+
+
+.page__content .bibbase_paper {
+  margin-bottom: 1.3rem;
+}
+
+.page__content .bibbase_paper_content {
+  display: block;
+  margin-top: 0.35rem;
+}
+
+.page__content .bibbase_paper_content .pub-badge {
+  display: inline-block;
+  margin: 0 0.45rem 0.35rem 0;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+  transition: opacity 0.15s ease;
+}
+
+.page__content .bibbase_paper_content .pub-badge:hover {
+  opacity: 0.85;
+}
+
+.page__content .bibbase_paper_content .pub-badge--doi {
+  background: #fce7e7;
+  color: #9f1239;
+  border-color: #f5b5c3;
+}
+
+.page__content .bibbase_paper_content .pub-badge--preprint {
+  background: #fff3cd;
+  color: #92400e;
+  border-color: #f7d98a;
+}
+
+.page__content .bibbase_paper_content .pub-badge--code {
+  background: #e7f0ff;
+  color: #1d4ed8;
+  border-color: #b7cdfc;
+}
+
+.page__content .bibbase_paper_content .pub-badge--bib {
+  background: #ede9fe;
+  color: #6d28d9;
+  border-color: #d1c4fd;
+}
+
+.page__content .bibbase_paper_content .pub-badge--slides {
+  background: #e7f9ef;
+  color: #047857;
+  border-color: #b7ebcb;
+}
+
+.page__content .bibbase_paper_content .pub-badge--video {
+  background: #ffe8e8;
+  color: #b91c1c;
+  border-color: #f5b7b7;
+}
+
+.page__content .bibbase_paper_content .pub-badge--pdf,
+.page__content .bibbase_paper_content .pub-badge--paper {
+  background: #eef2f7;
+  color: #334155;
+  border-color: #cfd8e3;
+}
