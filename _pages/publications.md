@@ -32,3 +32,6 @@ author_profile: true
 - **Towards understanding Accelerated Stein Variational Gradient Flow – Analysis of Generalized Bilinear Kernels for Gaussian target distributions**  
   joint work with [Wuchen Li](https://people.math.sc.edu/wuchen/), submitted to JMLR  
   [PDF](https://arxiv.org/pdf/2509.04008) · [Code](https://github.com/viktorajstein/Accelerated_Stein_Variational_Gradient_Flows)
+
+
+<script src="https://bibbase.org/show?bib=https://raw.githubusercontent.com/ViktorAJStein/viktorajstein.github.io/main/files/publications.bib&jsonp=1&group0=year&theme=default"></script>
