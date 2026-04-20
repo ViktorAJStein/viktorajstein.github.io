@@ -20,3 +20,10 @@ author_profile: true
 - On 13.11.2025, I gave an introductory talk on accelerated Stein variational gradient flow, focusing on the Gaussian case and the corresponding Riccati equations.
 
 - I was accepted into the [Berlin Mathematical School](https://www.math-berlin.de/index.php).
+
+## Where we possibly could meet:
+- SIAM Imaging Science and SIAM Mathematics of Data Science in Utah, USA, in November 2026.
+- BMS–BGSMath Junior Meeting 2026 in September 2026, in Barcelona, Spain.
+- Minisymposium on "New trends in geometric machine and deep learning" at CMAM 2026: Computational Methods in Applied Mathematics in Vienna, Austria, in July 2026.
+- Foundations of Computational Mathematics in July in Vienna 2026.
+- Learning and Optimization in Luminy 2026 at the CIRM in July 2026.
