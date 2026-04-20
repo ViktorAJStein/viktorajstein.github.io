@@ -124,3 +124,14 @@
 .page__content .bibbase_paper_content .pub-badge--paper::before {
   content: "📄";
 }
+
+.visitor-map-wrapper {
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.visitor-map-wrapper img,
+.visitor-map-wrapper iframe,
+.visitor-map-wrapper #mapmyvisitors {
+  max-width: 100%;
+}
