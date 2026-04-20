@@ -4,7 +4,6 @@
 
 @import "minimal-mistakes";
 
-/* your overrides */
 .author__avatar {
   display: block;
   width: 100%;
@@ -89,4 +88,39 @@
   background: #eef2f7;
   color: #334155;
   border-color: #cfd8e3;
+}
+
+.page__content .bibbase_paper_content .pub-badge::before {
+  display: inline-block;
+  margin-right: 0.35rem;
+  font-weight: 700;
+}
+
+.page__content .bibbase_paper_content .pub-badge--doi::before {
+  content: "🔗";
+}
+
+.page__content .bibbase_paper_content .pub-badge--preprint::before {
+  content: "📝";
+}
+
+.page__content .bibbase_paper_content .pub-badge--code::before {
+  content: "💻";
+}
+
+.page__content .bibbase_paper_content .pub-badge--slides::before {
+  content: "📊";
+}
+
+.page__content .bibbase_paper_content .pub-badge--video::before {
+  content: "▶";
+}
+
+.page__content .bibbase_paper_content .pub-badge--bib::before {
+  content: "📚";
+}
+
+.page__content .bibbase_paper_content .pub-badge--pdf::before,
+.page__content .bibbase_paper_content .pub-badge--paper::before {
+  content: "📄";
 }
