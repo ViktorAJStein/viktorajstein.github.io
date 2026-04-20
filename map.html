@@ -23,194 +23,242 @@ Blue markers indicate past trips; red markers indicate future ones.
   </span>
 </div>
 
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const locations = [
-    {
-      city: "Berlin, Germany",
-      lat: 52.5200,
-      lng: 13.4050,
-      status: "past",
-      items: [
-        {
-          title: "Workshop on Optimal transport from theory to applications – Interfacing dynamical systems, optimization and machine learning",
-          date: "March 2024",
-          kind: "poster"
-        }
-      ]
-    },
-    {
-      city: "Luminy / Marseille, France",
-      lat: 43.2315,
-      lng: 5.4410,
-      status: "past",
-      items: [
-        {
-          title: "Learning and Optimization in Luminy (CIRM)",
-          date: "June 2024",
-          kind: "poster"
-        },
-        {
-          title: "SIGMA Workshop at CIRM",
-          date: "October 2024",
-          kind: "poster"
-        }
-      ]
-    },
-    {
-      city: "Columbia, South Carolina, USA",
-      lat: 34.0007,
-      lng: -81.0348,
-      status: "past",
-      items: [
-        {
-          title: "Research visit to Wuchen Li, University of South Carolina",
-          date: "August–September 2024",
-          kind: "research visit"
-        },
-        {
-          title: "Wasserstein Gradient Flows of MMD Functionals with Distance Kernel and Cauchy Problems on Quantile Functions",
-          date: "August 2024",
-          kind: "seminar talk"
-        },
-        {
-          title: "Interpolating between Optimal Transport and KL regularized Optimal Transport using Rényi Divergences",
-          date: "September 2024",
-          kind: "colloquium talk"
-        }
-      ]
-    },
-    {
-      city: "Los Angeles, California, USA",
-      lat: 34.0689,
-      lng: -118.4452,
-      status: "past",
-      items: [
-        {
-          title: "Wasserstein Gradient Flows for Moreau Envelopes of f-Divergences in Reproducing Kernel Hilbert Spaces",
-          date: "August 2024",
-          kind: "seminar talk"
-        },
-        {
-          title: "Accelerated Stein Variational Gradient Flow",
-          date: "April 2025",
-          kind: "seminar talk"
-        }
-      ]
-    },
-    {
-      city: "Naples, Italy",
-      lat: 40.8518,
-      lng: 14.2681,
-      status: "past",
-      items: [
-        {
-          title: "Mathematical and Scientific Machine Learning",
-          date: "August 2025",
-          kind: "poster"
-        }
-      ]
-    },
-    {
-      city: "Hamburg, Germany",
-      lat: 53.5511,
-      lng: 9.9937,
-      status: "past",
-      items: [
-        {
-          title: "MML’25: Conference on Mathematics of Machine Learning 2025",
-          date: "September 2025",
-          kind: "talk"
-        }
-      ]
-    },
-    {
-      city: "Saint-Malo, France",
-      lat: 48.6493,
-      lng: -2.0257,
-      status: "past",
-      items: [
-        {
-          title: "GSI’25: Geometric Science of Information",
-          date: "October 2025",
-          kind: "talk"
-        }
-      ]
-    },
-    {
-      city: "Madrid, Spain",
-      lat: 40.4168,
-      lng: -3.7038,
-      status: "past",
-      items: [
-        {
-          title: "Research stay in Madrid",
-          date: "November 2025",
-          kind: "research visit"
-        }
-      ]
-    },
-    {
-      city: "Oberwolfach, Germany",
-      lat: 48.3160,
-      lng: 8.2160,
-      status: "past",
-      items: [
-        {
-          title: "MFO Workshop 2613 – Flows on Measure Spaces and Applications in Machine Learning",
-          date: "March 2026",
-          kind: "workshop talk"
-        }
-      ]
-    }
-  ];
-
-  const map = L.map("travel-map", {
-    scrollWheelZoom: false,
-    worldCopyJump: true
-  });
-
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(map);
-
-  const bounds = [];
-  const colors = {
-    past: "#2b6cb0",
-    future: "#c53030"
-  };
-
-  locations.forEach((loc) => {
-    const popupList = loc.items.map((item) => {
-      return `
-        <li>
-          <strong>${item.title}</strong><br>
-          <span class="travel-map-meta">${item.date} · ${item.kind}</span>
-        </li>
-      `;
-    }).join("");
-
-    const marker = L.circleMarker([loc.lat, loc.lng], {
-      radius: 8,
-      color: colors[loc.status],
-      fillColor: colors[loc.status],
-      fillOpacity: 0.85,
-      weight: 1.5
-    }).addTo(map);
-
-    marker.bindPopup(`
-      <div class="travel-map-popup">
-        <strong>${loc.city}</strong>
-        <ul>${popupList}</ul>
-      </div>
-    `);
-
-    bounds.push([loc.lat, loc.lng]);
-  });
-
-  map.fitBounds(bounds, {
-    padding: [35, 35]
-  });
-});
-</script>
+const locations = [
+  {
+    city: "Berlin, Germany",
+    lat: 52.5200,
+    lng: 13.4050,
+    status: "past",
+    items: [
+      {
+        title: "Workshop on Optimal transport from theory to applications",
+        date: "March 2024",
+        kind: "poster"
+      },
+      {
+        title: "14th BMS Student Conference — What does Adam have to do with symplectic manifolds?",
+        date: "February 2026",
+        kind: "talk"
+      }
+    ]
+  },
+  {
+    city: "Luminy / Marseille, France",
+    lat: 43.2315,
+    lng: 5.4410,
+    status: "future",
+    items: [
+      {
+        title: "Learning and Optimization in Luminy (CIRM)",
+        date: "June 2024",
+        kind: "poster"
+      },
+      {
+        title: "SIGMA Workshop at CIRM",
+        date: "October 2024",
+        kind: "poster"
+      },
+      {
+        title: "Learning and Optimization in Luminy 2026 — SympFormer: Accelerated attention blocks via Inertial Dynamics on Density Manifolds",
+        date: "June 2026",
+        kind: "talk"
+      }
+    ]
+  },
+  {
+    city: "Columbia, South Carolina, USA",
+    lat: 34.0007,
+    lng: -81.0348,
+    status: "past",
+    items: [
+      {
+        title: "Research visit to Wuchen Li, University of South Carolina",
+        date: "August–September 2024",
+        kind: "research visit"
+      },
+      {
+        title: "Wasserstein Gradient Flows of MMD Functionals with Distance Kernel and Cauchy Problems on Quantile Functions",
+        date: "August 2024",
+        kind: "seminar talk"
+      },
+      {
+        title: "Interpolating between Optimal Transport and KL regularized Optimal Transport using Rényi Divergences",
+        date: "September 2024",
+        kind: "colloquium talk"
+      }
+    ]
+  },
+  {
+    city: "Los Angeles, California, USA",
+    lat: 34.0689,
+    lng: -118.4452,
+    status: "past",
+    items: [
+      {
+        title: "Wasserstein Gradient Flows for Moreau Envelopes of f-Divergences in Reproducing Kernel Hilbert Spaces",
+        date: "August 2024",
+        kind: "seminar talk"
+      },
+      {
+        title: "Accelerated Stein Variational Gradient Flow",
+        date: "April 2025",
+        kind: "seminar talk"
+      }
+    ]
+  },
+  {
+    city: "Madrid, Spain",
+    lat: 40.4168,
+    lng: -3.7038,
+    status: "past",
+    items: [
+      {
+        title: "Research visit to Joaquín Míguez, Universidad Carlos III Madrid",
+        date: "November 2025",
+        kind: "research visit"
+      },
+      {
+        title: "Accelerated Stein Variational Gradient Flow",
+        date: "November 2025",
+        kind: "colloquium talk"
+      }
+    ]
+  },
+  {
+    city: "Hamburg, Germany",
+    lat: 53.5511,
+    lng: 9.9937,
+    status: "past",
+    items: [
+      {
+        title: "MML’25 — Wasserstein Gradient Flows for Moreau Envelopes of f-Divergences in Reproducing Kernel Hilbert Spaces",
+        date: "September 2025",
+        kind: "talk"
+      }
+    ]
+  },
+  {
+    city: "Saint-Malo, France",
+    lat: 48.6493,
+    lng: -2.0257,
+    status: "past",
+    items: [
+      {
+        title: "GSI’25 — Accelerated Stein Variational Gradient Flow",
+        date: "October 2025",
+        kind: "talk"
+      }
+    ]
+  },
+  {
+    city: "Naples, Italy",
+    lat: 40.8518,
+    lng: 14.2681,
+    status: "past",
+    items: [
+      {
+        title: "Mathematical and Scientific Machine Learning",
+        date: "August 2025",
+        kind: "poster"
+      }
+    ]
+  },
+  {
+    city: "Oberwolfach, Germany",
+    lat: 48.3160,
+    lng: 8.2160,
+    status: "past",
+    items: [
+      {
+        title: "MFO Workshop 2613 — SympFormer: Accelerated attention blocks via Inertial Dynamics on Density Manifolds",
+        date: "March 2026",
+        kind: "workshop talk"
+      }
+    ]
+  },
+  {
+    city: "Augsburg, Germany",
+    lat: 48.3705,
+    lng: 10.8978,
+    status: "past",
+    items: [
+      {
+        title: "Gradient structures workshop",
+        date: "February 2026",
+        kind: "poster"
+      }
+    ]
+  },
+  {
+    city: "Tutzing, Germany",
+    lat: 47.9097,
+    lng: 11.2803,
+    status: "past",
+    items: [
+      {
+        title: "TUM research retreat — Advanced Mathematical Methods in Data Analysis and Signal Processing",
+        date: "March 2026",
+        kind: "poster"
+      }
+    ]
+  },
+  {
+    city: "Vienna, Austria",
+    lat: 48.2082,
+    lng: 16.3738,
+    status: "future",
+    items: [
+      {
+        title: "CMAM 2026 — Accelerated Stein Variational Gradient Flow",
+        date: "July 2026",
+        kind: "talk"
+      },
+      {
+        title: "FoCM 2026 — Wasserstein Gradient Flows for Moreau Envelopes of f-Divergences in Reproducing Kernel Hilbert Spaces",
+        date: "July 2026",
+        kind: "poster"
+      },
+      {
+        title: "FoCM 2026 — Accelerated Stein Variational Gradient Flow",
+        date: "July 2026",
+        kind: "poster"
+      }
+    ]
+  },
+  {
+    city: "Barcelona, Spain",
+    lat: 41.3874,
+    lng: 2.1686,
+    status: "future",
+    items: [
+      {
+        title: "BMS–BGSMath Junior Meeting 2026",
+        date: "September 2026",
+        kind: "talk"
+      }
+    ]
+  },
+  {
+    city: "Salt Lake City, Utah, USA",
+    lat: 40.7608,
+    lng: -111.8910,
+    status: "future",
+    items: [
+      {
+        title: "SIAM MDS26 — SympFormer: Accelerated attention blocks via Inertial Dynamics on Density Manifolds",
+        date: "November 2026",
+        kind: "talk"
+      },
+      {
+        title: "SIAM MDS26 — Accelerated Stein Variational Gradient Flow",
+        date: "November 2026",
+        kind: "talk"
+      },
+      {
+        title: "SIAM IS26 — Wasserstein Gradient Flows for Moreau Envelopes of f-Divergences in Reproducing Kernel Hilbert Spaces",
+        date: "November 2026",
+        kind: "talk"
+      }
+    ]
+  }
+];
