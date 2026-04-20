@@ -3,6 +3,8 @@ main:
     url: /
   - title: "News & Events"
     url: /news/
+  - title: "Map"
+    url: /map.html
   - title: "Publications"
     url: /publications/
   - title: "Talks"
