@@ -12,33 +12,53 @@ author_profile: true
 <script>
 (function () {
   function normalizeLabel(text) {
-    return text.replace(/\s+/g, "").toLowerCase();
+    return (text || "").replace(/\s+/g, "").toLowerCase();
+  }
+
+  function setBadgeType(a, type, label) {
+    a.classList.add("pub-badge", "pub-badge--" + type);
+
+    const currentText = (a.textContent || "").trim();
+    if (!currentText) {
+      a.textContent = label;
+    }
+
+    if (!a.getAttribute("title")) {
+      a.setAttribute("title", label);
+    }
+
+    a.setAttribute("aria-label", label);
   }
 
   function classifyBibBaseLinks() {
     const links = document.querySelectorAll(".bibbase_paper_content a");
+
     links.forEach((a) => {
-      const label = normalizeLabel(a.textContent || "");
+      const rawText = (a.textContent || "").trim();
+      const label = normalizeLabel(rawText);
       const href = (a.getAttribute("href") || "").toLowerCase();
 
-      a.classList.add("pub-badge");
+      // Avoid reprocessing
+      if (a.classList.contains("pub-badge")) return;
 
       if (label.includes("doi") || href.includes("doi.org")) {
-        a.classList.add("pub-badge--doi");
+        setBadgeType(a, "doi", "DOI");
       } else if (label.includes("preprint") || href.includes("arxiv.org")) {
-        a.classList.add("pub-badge--preprint");
-      } else if (label.includes("code") || href.includes("github.com")) {
-        a.classList.add("pub-badge--code");
+        setBadgeType(a, "preprint", "Preprint");
+      } else if (label.includes("code") || href.includes("github.com") || href.includes("gitlab.com")) {
+        setBadgeType(a, "code", "Code");
+      } else if (label.includes("slides") || href.includes("speakerdeck.com")) {
+        setBadgeType(a, "slides", "Slides");
+      } else if (label.includes("video") || href.includes("youtube.com") || href.includes("youtu.be")) {
+        setBadgeType(a, "video", "Video");
       } else if (label.includes("biblatex") || label.includes("bibtex") || href.endsWith(".bib")) {
-        a.classList.add("pub-badge--bib");
-      } else if (label.includes("slides")) {
-        a.classList.add("pub-badge--slides");
-      } else if (label.includes("video")) {
-        a.classList.add("pub-badge--video");
+        setBadgeType(a, "bib", "BibLaTeX");
       } else if (label.includes("pdf")) {
-        a.classList.add("pub-badge--pdf");
+        setBadgeType(a, "pdf", "PDF");
       } else if (label.includes("paper")) {
-        a.classList.add("pub-badge--paper");
+        setBadgeType(a, "paper", "Paper");
+      } else {
+        a.classList.add("pub-badge");
       }
     });
   }
