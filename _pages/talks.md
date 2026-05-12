@@ -8,7 +8,7 @@ author_profile: true
 - **SympFormer: Accelerated attention blocks via Inertial Dynamics on Density Manifolds**
   
     - Oberwolfach workshop [Flows on Measure Spaces and Applications in Machine Learning](https://www.mfo.de/www/activity/2613).
-    - [Applied Analysis Seminar at the University of Heidelberg](https://biostruct.iwr.uni-heidelberg.de/applied/talks/s2526/stein/) (12.05.2026). Title: "Gradient flows on probability measures and their inertial variants: from Wasserstein geometry to Transformers".
+    - [Applied Analysis Seminar](https://biostruct.iwr.uni-heidelberg.de/applied/talks/s2526/stein/) at the University of Heidelberg (12.05.2026). Title: "Gradient flows on probability measures and their inertial variants: from Wasserstein geometry to Transformers".
 
 - **Accelerated Stein Variational Flow**
     - [GSI'25 – 7th International Conference on Geometric Science of Information](https://conference-gsi.org/), St. Malo, France, 30.10.2025. [Slides](https://speakerdeck.com/viktorajstein/accelerated-variational-gradient-flow-slides)
