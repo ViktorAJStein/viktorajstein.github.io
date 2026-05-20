@@ -18,4 +18,4 @@ Developing methods that are both theoretically grounded and practically robust e
 - Kinetic extensions thereof, like accelerated gradient flows
 - Particle methods for generative modeling
 - designing and investigating the properties of suitable loss functionals, combining e.g., optimal transport, f-divergences, and kernel distances.
-- infinite-dimensional geometry
+- infinite-dimensional geometry of probability measures
