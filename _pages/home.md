@@ -14,7 +14,7 @@ Developing methods that are both theoretically grounded and practically robust e
 
 ## Research interests
 
-- Metric gradient flows in the Wasserstein geometry, the Fisher-Rao geometry, and kernelized variants
+- Metric gradient flows in the Wasserstein geometry and kernelized variants
 - Kinetic extensions thereof, like accelerated gradient flows
 - Particle methods for generative modeling
 - designing and investigating the properties of suitable loss functionals, combining e.g., optimal transport, f-divergences, and kernel distances.
