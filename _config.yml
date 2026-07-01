@@ -32,7 +32,7 @@ author:
 
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      url: "mailto:stein@math.tu-berlin.de"
+      url: "mailto:viktor.stein@tum.de"
 
     - label: "arXiv"
       icon: "ai ai-arxiv ai-fw"
