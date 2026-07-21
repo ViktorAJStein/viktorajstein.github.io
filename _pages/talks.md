@@ -7,10 +7,11 @@ author_profile: true
 
 - **SympFormer: Accelerated attention blocks via Inertial Dynamics on Density Manifolds**
   
-    - Oberwolfach workshop [Flows on Measure Spaces and Applications in Machine Learning](https://www.mfo.de/www/activity/2613).
-    - [Applied Analysis Seminar](https://biostruct.iwr.uni-heidelberg.de/applied/talks/s2526/stein/) at the University of Heidelberg (12.05.2026). Title: "Gradient flows on probability measures and their inertial variants: from Wasserstein geometry to Transformers".
+    - Oberwolfach workshop [Flows on Measure Spaces and Applications in Machine Learning](https://www.mfo.de/www/activity/2613), March 2026.
+    - [Applied Analysis Seminar](https://biostruct.iwr.uni-heidelberg.de/applied/talks/s2526/stein/) at the University of Heidelberg, 12.05.2026.
 
 - **Accelerated Stein Variational Flow**
+    - Minisymposium "New trends in geometric machine and deep learning", [Computational Methods in Applied Mathematics (CMAM 2026)](https://www.tuwien.at/en/mg/asc/event/cmam2026), 21.07.2026 
     - [GSI'25 – 7th International Conference on Geometric Science of Information](https://conference-gsi.org/), St. Malo, France, 30.10.2025. [Slides](https://speakerdeck.com/viktorajstein/accelerated-variational-gradient-flow-slides)
     - Stan Osher’s UCLA Level Set Seminar, April 2025.
     - Colloquium of the Signal Processing Department, University Carlos III Madrid, November 2025.
@@ -32,6 +33,9 @@ author_profile: true
 
 ## Expository talks
 
+- **Moving Mass, Decreasing Energy: Learning Probability Distributions with Wasserstein Gradient Flows**
+  [BMS-BGSMath Junior Meeting 2026](https://www.crm.cat/bms-bgsmath-junior-meeting-2026/)
+  
 - **Training Neural Networks at the Edge of Stability**  
   [Slides](https://speakerdeck.com/viktorajstein/training-neural-networks-at-the-edge-of-stability)  
   An overview of [Self-Stabilization: The Implicit Bias of Gradient Descent at the Edge of Stability](https://openreview.net/pdf/58dee9437b8c6a8bd725e2792631e8392f881f19.pdf) and [Gradient Descent on Neural Networks Typically Occurs at the Edge of Stability](https://arxiv.org/pdf/2103.00065) held in [Benjamin Gess’](https://www.bgess.de/) Mathematics of Machine Learning seminar.
