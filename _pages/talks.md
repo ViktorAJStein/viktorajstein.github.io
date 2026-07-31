@@ -9,6 +9,8 @@ author_profile: true
   
     - Oberwolfach workshop [Flows on Measure Spaces and Applications in Machine Learning](https://www.mfo.de/www/activity/2613), March 2026.
     - [Applied Analysis Seminar](https://biostruct.iwr.uni-heidelberg.de/applied/talks/s2526/stein/) at the University of Heidelberg, 12.05.2026.
+    - [Learning and Optimization in Luminy](https://www.cirm-math.fr/Schedule/display.php?id_renc=3630) (LOL'26), July 2026.
+    - [Minisymposium PDE, Measure Transport, and Geometric Perspectives on Generative Modeling](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=89720) at the [SIAM Conference on Mathematics of Data Science](https://www.siam.org/conferences-events/siam-conferences/mds26/), Salt Lake City, Utah, US, November 2026.
 
 - **Accelerated Stein Variational Flow**
     - Minisymposium "New trends in geometric machine and deep learning", [Computational Methods in Applied Mathematics (CMAM 2026)](https://www.tuwien.at/en/mg/asc/event/cmam2026), 21.07.2026 
