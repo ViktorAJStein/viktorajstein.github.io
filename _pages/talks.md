@@ -46,6 +46,7 @@ author_profile: true
 - **What are … generative probability flows for sampling?**  
   in the [“What is … ?” series](https://whatisseminar.xyz/index.html) of the [Berlin Mathematical School](https://www.math-berlin.de/)  
   [Slides](https://github.com/ViktorAJStein/viktorajstein.github.io/blob/main/files/What_are_generative_probability_flows_for_sampling_Slides.pdf)
+  [Video](https://vimeo.com/1134604793)
 
 - **Mode collapse and metastability in transformers**  
   [Slides](https://viktorajstein.github.io/files/Mode_collapse_and_metastability.pdf)  
