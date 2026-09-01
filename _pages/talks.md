@@ -8,6 +8,7 @@ author_profile: true
 - **SympFormer: Accelerated attention blocks via Inertial Dynamics on Density Manifolds**
   
     - Oberwolfach workshop [Flows on Measure Spaces and Applications in Machine Learning](https://www.mfo.de/www/activity/2613), March 2026.
+    - Applied Numerical Analysis Seminar at the Technical University of Munich, 28.05.2026
     - [Applied Analysis Seminar](https://biostruct.iwr.uni-heidelberg.de/applied/talks/s2526/stein/) at the University of Heidelberg, 12.05.2026.
     - [Learning and Optimization in Luminy](https://www.cirm-math.fr/Schedule/display.php?id_renc=3630) (LOL'26), July 2026.
     - Minisymposium [PDE, Measure Transport, and Geometric Perspectives on Generative Modeling](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=89720) at the [SIAM Conference on Mathematics of Data Science](https://www.siam.org/conferences-events/siam-conferences/mds26/), Salt Lake City, Utah, US, November 2026.
