@@ -38,6 +38,7 @@ author_profile: true
 
 - **Moving Mass, Decreasing Energy: Learning Probability Distributions with Wasserstein Gradient Flows**
   [BMS-BGSMath Junior Meeting 2026](https://www.crm.cat/bms-bgsmath-junior-meeting-2026/)
+  [Slides](https://github.com/ViktorAJStein/viktorajstein.github.io/blob/main/files/Moving_mass%2C_decreasing_energy%20-%20Slides_BMS_Conference.pdf)
   
 - **Training Neural Networks at the Edge of Stability**  
   [Slides](https://speakerdeck.com/viktorajstein/training-neural-networks-at-the-edge-of-stability)  
