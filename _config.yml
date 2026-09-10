@@ -22,13 +22,16 @@ permalink: pretty
 author:
   name: "Viktor Stein"
   avatar: "/assets/images/Stein.JPG"
-  bio: "Applied mathematician working on Wasserstein gradient flows, regularized divergences, optimal transport,
-  and geometry-inspired machine learning."
+  bio: "Postdoctoral researcher in applied mathematics working on Wasserstein gradient flows, regularized divergences, optimal transport, and geometry-inspired machine learning."
 
   links:
-    - label: "TU Berlin"
+    - label: "TUM"
       icon: "fas fa-fw fa-building-columns"
-      url: "https://www.tu.berlin/en/"
+      url: "https://www.math.cit.tum.de/en/math/"
+
+    - label: "MCML"
+      icon: "fas fa-fw fa-network-wired"
+      url: "https://mcml.ai/team/juniors/"
 
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
