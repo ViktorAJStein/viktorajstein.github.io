@@ -18,6 +18,7 @@ author_profile: true
   - Minisymposium "New trends in geometric machine and deep learning", [Computational Methods in Applied Mathematics (CMAM 2026)](https://www.tuwien.at/en/mg/asc/event/cmam2026), 21 July 2026.
   - [GSI'25 – 7th International Conference on Geometric Science of Information](https://conference-gsi.org/), Saint-Malo, France, 30 October 2025. [Slides](https://speakerdeck.com/viktorajstein/accelerated-variational-gradient-flow-slides)
   - Colloquium of the Signal Processing Department, University Carlos III Madrid, November 2025.
+  - Postgraduate seminar organized by the Numerical Modeling of Differential Equations Research Group, TU Berlin, November 2025.
   - Stan Osher's UCLA Level Set Seminar, April 2025.
   - Poster at [Mathematical and Scientific Machine Learning 2025](https://sites.google.com/view/msml2025/home?authuser=0), Naples, August 2025.
   - Poster in the [Foundations of Data Science and Machine Learning workshop](https://focm2026.univie.ac.at/?page_id=1683) at [Foundations of Computational Mathematics 2026](https://focm2026.univie.ac.at/), Vienna, July 2026.
