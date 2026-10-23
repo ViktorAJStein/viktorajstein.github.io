@@ -53,6 +53,8 @@ author_profile: true
   - Joint [Applied and Computational Mathematics](https://sc.edu/study/colleges_schools/artsandsciences/mathematics/beyond_classroom/colloquia_and_seminars/acm/index.php) and [RTG Data Science Seminar](https://sc.edu/study/colleges_schools/artsandsciences/mathematics/beyond_classroom/colloquia_and_seminars/rtg_data_science/index.php), University of South Carolina, 30 August 2024. [Slides](https://viktorajstein.github.io/files/Slides_WGF_of_MMD_Functionals_with_Distance_Kernel_and_Cauchy_Problems_on_Quantile_Functions.pdf)
 
 ## Expository talks
+-- **From Gradient Descent to Damped Mechanics: A Dynamical-Systems View of Optimization** 
+[Dynamics Cafe - Online seminars on dynamical systems and their applications](https://dynamics-cafe.github.io/), 12.12.2026.
 
 - **Moving Mass, Decreasing Energy: Learning Probability Distributions with Wasserstein Gradient Flows**  
   [BMS–BGSMath Junior Meeting 2026](https://www.crm.cat/bms-bgsmath-junior-meeting-2026/), Barcelona, 4 September 2026.  
