@@ -6,10 +6,11 @@ author_profile: true
 ---
 
 ## Recent News
+- New paper on rigorous damped Hamiltonian flows on probability measures + applications to transformers out now: https://arxiv.org/abs/2610.31600.
 
 - In September 2026, I gave the expository talk *Moving Mass, Decreasing Energy: Learning Probability Distributions with Wasserstein Gradient Flows* at the BMS–BGSMath Junior Meeting in Barcelona.
 
-- In winter semester 2026/27, together with [Francesco Mattesini](https://francescomattesini.github.io/), I am again organizing the hybrid [Oberseminar](https://mathcal.ma.tum.de/mc/showtalks?) of the Applied Numerical Analysis Group at TUM.
+- In the winter semester 2026/27, together with [Francesco Mattesini](https://francescomattesini.github.io/) and [Tim Roith](https://timroith.github.io/), I am again organizing the hybrid [Oberseminar](https://mathcal.ma.tum.de/mc/showtalks?) of the Applied Numerical Analysis Group at TUM.
 
 - Two papers were accepted at ICML 2026: *Approximating $f$-Divergences with Rank Statistics* and *Well-Posed KL-Regularized Control via Wasserstein and Kalman–Wasserstein KL Divergences*. I presented both as posters at ICML 2026 in Seoul.
 
